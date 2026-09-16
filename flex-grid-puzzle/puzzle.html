@@ -5,46 +5,154 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Snowmen Puzzle</title>
+
     <style>
-        body { font-family:Arial, Helvetica, sans-serif; background-color:#EAF4FA; }
-        .grid-container { display:grid; grid-template-columns:1fr; grid-template-areas: 'header' 'puzzle' 'date'; row-gap:20px; width:700px; margin:auto; }
-        .header { grid-area:header; background-color:#A9D6E5; text-align:center; padding:15px; border:3px solid #468FAF; }
-        .puzzle-section { grid-area:puzzle; background-color:#FFFFFF; padding:20px; border:3px solid #468FAF; }
-        .puzzle { display:flex; flex-wrap:wrap; width:600px; margin:auto; }
-        .puzzle img { width:150px; height:133px; }
-        .pieceK { order:1; } .pieceM { order:2; } .pieceE { order:3; } .pieceG { order:4; }
-        .pieceA { order:5; } .pieceD { order:6; } .pieceL { order:7; } .pieceB { order:8; }
-        .pieceF { order:9; } .pieceJ { order:10; } .pieceH { order:11; } .pieceI { order:12; }
-        .faulty { display:none; }
-        .date { grid-area:date; background-color:#A9D6E5; text-align:center; padding:10px; border:3px solid #468FAF; }
+
+        body {
+            font-family:Arial, Helvetica, sans-serif;
+            background-color:#EAF4FA;
+        }
+
+        .grid-container {
+            display:grid;
+            grid-template-columns:1fr;
+            grid-template-areas:
+                'header'
+                'puzzle'
+                'date';
+            row-gap:20px;
+            width:700px;
+            margin:auto;
+        }
+
+        .header {
+            grid-area:header;
+            background-color:#A9D6E5;
+            text-align:center;
+            padding:15px;
+            border:3px solid #468FAF;
+        }
+
+        .puzzle-section {
+            grid-area:puzzle;
+            background-color:#FFFFFF;
+            padding:20px;
+            border:3px solid #468FAF;
+        }
+
+        .puzzle {
+            display:flex;
+            flex-wrap:wrap;
+            width:600px;
+            margin:auto;
+        }
+
+        .puzzle img {
+            width:150px;
+            height:133px;
+        }
+
+        .pieceK {
+            order:1;
+        }
+
+        .pieceM {
+            order:2;
+        }
+
+        .pieceE {
+            order:3;
+        }
+
+        .pieceG {
+            order:4;
+        }
+
+        .pieceA {
+            order:5;
+        }
+
+        .pieceD {
+            order:6;
+        }
+
+        .pieceL {
+            order:7;
+        }
+
+        .pieceB {
+            order:8;
+        }
+
+        .pieceF {
+            order:9;
+        }
+
+        .pieceJ {
+            order:10;
+        }
+
+        .pieceH {
+            order:11;
+        }
+
+        .pieceI {
+            order:12;
+        }
+
+        .faulty {
+            display:none;
+        }
+
+        .date {
+            grid-area:date;
+            background-color:#A9D6E5;
+            text-align:center;
+            padding:10px;
+            border:3px solid #468FAF;
+        }
+
     </style>
+
 </head>
+
 <body>
+
     <div class="grid-container">
+
         <div class="header">
             <h1>Snowmen Puzzle</h1>
             <p>Ruzgar Savas</p>
         </div>
+
         <div class="puzzle-section">
+
             <div class="puzzle">
-                <img class="pieceA" src="images/puzzle2_A.jpg" alt="Piece A">
-                <img class="pieceB" src="images/puzzle2_B.jpg" alt="Piece B">
-                <img class="faulty" src="images/puzzle2_C.jpg" alt="Faulty piece">
-                <img class="pieceD" src="images/puzzle2_D.jpg" alt="Piece D">
-                <img class="pieceE" src="images/puzzle2_E.jpg" alt="Piece E">
-                <img class="pieceF" src="images/puzzle2_F.jpg" alt="Piece F">
-                <img class="pieceG" src="images/puzzle2_G.jpg" alt="Piece G">
-                <img class="pieceH" src="images/puzzle2_H.jpg" alt="Piece H">
-                <img class="pieceI" src="images/puzzle2_I.jpg" alt="Piece I">
-                <img class="pieceJ" src="images/puzzle2_J.jpg" alt="Piece J">
-                <img class="pieceK" src="images/puzzle2_K.jpg" alt="Piece K">
-                <img class="pieceL" src="images/puzzle2_L.jpg" alt="Piece L">
-                <img class="pieceM" src="images/puzzle2_M.jpg" alt="Piece M">
+
+                <img class="pieceA" src="images/puzzle2_A.jpg" alt="Piece A"/>
+                <img class="pieceB" src="images/puzzle2_B.jpg" alt="Piece B"/>
+                <img class="faulty" src="images/puzzle2_C.jpg" alt="Faulty piece"/>
+                <img class="pieceD" src="images/puzzle2_D.jpg" alt="Piece D"/>
+                <img class="pieceE" src="images/puzzle2_E.jpg" alt="Piece E"/>
+                <img class="pieceF" src="images/puzzle2_F.jpg" alt="Piece F"/>
+                <img class="pieceG" src="images/puzzle2_G.jpg" alt="Piece G"/>
+                <img class="pieceH" src="images/puzzle2_H.jpg" alt="Piece H"/>
+                <img class="pieceI" src="images/puzzle2_I.jpg" alt="Piece I"/>
+                <img class="pieceJ" src="images/puzzle2_J.jpg" alt="Piece J"/>
+                <img class="pieceK" src="images/puzzle2_K.jpg" alt="Piece K"/>
+                <img class="pieceL" src="images/puzzle2_L.jpg" alt="Piece L"/>
+                <img class="pieceM" src="images/puzzle2_M.jpg" alt="Piece M"/>
+
             </div>
+
         </div>
+
         <div class="date">
             Completed September 16, 2026
         </div>
+
     </div>
+
 </body>
+
 </html>
