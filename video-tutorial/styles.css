@@ -1,0 +1,57 @@
+/*
+***********************
+* VIDEO TUTORIAL STYLES
+***********************
+*/
+
+/* Global Styles */
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#F2F5F9;
+    width:800px;
+    margin:auto;
+}
+
+h1 {
+    text-align:center;
+    color:#1D428A;
+}
+
+h2 {
+    color:#1D428A;
+}
+
+
+/* Introduction */
+
+.intro {
+    text-align:center;
+    font-size:1.1em;
+}
+
+
+/* Tutorial Steps */
+
+.step {
+    background-color:#FFFFFF;
+    border:2px solid #1D428A;
+    padding:20px;
+    margin:20px 0px;
+}
+
+.step img {
+    width:700px;
+    border:1px solid #888888;
+}
+
+
+/* Embedded Video */
+
+.example {
+    background-color:#FFFFFF;
+    border:2px solid #1D428A;
+    padding:20px;
+    margin:20px 0px;
+    text-align:center;
+}
