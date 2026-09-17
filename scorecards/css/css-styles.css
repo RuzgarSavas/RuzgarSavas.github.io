@@ -1,0 +1,49 @@
+/*
+*******************
+* SCORECARD STYLES
+*******************
+*/
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#F2F5F9;
+    margin:30px;
+}
+
+h1 {
+    text-align:center;
+    color:#1D428A;
+}
+
+.scorecard {
+    width:700px;
+    margin:auto;
+    border-collapse:collapse;
+    background-color:#FFFFFF;
+}
+
+.scorecard caption {
+    font-size:1.3em;
+    font-weight:bold;
+    color:#1D428A;
+    padding:10px;
+}
+
+.scorecard th {
+    background-color:#1D428A;
+    color:#FFFFFF;
+    padding:10px;
+    border:2px solid #0F2A5C;
+}
+
+.scorecard td {
+    padding:8px;
+    border:2px solid #B0B8C4;
+    text-align:center;
+}
+
+/* Pseudo Class */
+
+.scorecard tr:nth-child(even) {
+    background-color:#E8EDF5;
+}
