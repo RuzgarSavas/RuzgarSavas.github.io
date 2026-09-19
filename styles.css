@@ -1,0 +1,105 @@
+/*
+************************
+* IMITATION ASSIGNMENT
+************************
+*/
+
+/* Page Styles */
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#FFFFFF;
+    text-align:center;
+}
+
+h1 {
+    color:#333333;
+}
+
+.gallery {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.project {
+    width:430px;
+    margin:25px;
+}
+
+.project p {
+    margin-top:20px;
+}
+
+
+/* Penguins */
+
+.penguins {
+    width:340px;
+    border:1px solid #555555;
+    border-radius:50%;
+    filter:sepia(50%);
+}
+
+
+/* Football Field */
+
+.football {
+    width:300px;
+    border:30px solid transparent;
+    border-image-source:url("../images/tic-tac-toe.png");
+    border-image-slice:53;
+    border-image-repeat:round;
+    filter:grayscale(100%);
+}
+
+
+/* Dinosaur */
+
+.dinosaur {
+    width:230px;
+    filter:hue-rotate(90deg) drop-shadow(8px 8px 5px #555555);
+}
+
+
+/* Seagull */
+
+.seagull {
+    width:280px;
+    padding:15px 35px;
+    background-image:linear-gradient(to right, #9999FF, #EEEEFF);
+    box-shadow:0px 10px 8px #888888;
+}
+
+
+/* Butterfly */
+
+.butterfly {
+    width:300px;
+    border-radius:50px 0px 50px 0px;
+    filter:invert(100%);
+}
+
+
+/* Theater Stage */
+
+.stage {
+    position:relative;
+    width:300px;
+    margin:auto;
+}
+
+.stage img {
+    width:300px;
+    filter:blur(3px);
+}
+
+.stage span {
+    position:absolute;
+    top:115px;
+    left:0px;
+    width:300px;
+    color:#FFFFFF;
+    font-size:34px;
+    text-shadow:2px 2px 3px #000000;
+}
